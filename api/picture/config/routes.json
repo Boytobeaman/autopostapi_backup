@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/book",
-      "handler": "Book.find",
+      "path": "/picture",
+      "handler": "Picture.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/book/count",
-      "handler": "Book.count",
+      "path": "/picture/count",
+      "handler": "Picture.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/book/:_id",
-      "handler": "Book.findOne",
+      "path": "/picture/:_id",
+      "handler": "Picture.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/book",
-      "handler": "Book.create",
+      "path": "/picture",
+      "handler": "Picture.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/book/:_id",
-      "handler": "Book.update",
+      "path": "/picture/:_id",
+      "handler": "Picture.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/book/:_id",
-      "handler": "Book.destroy",
+      "path": "/picture/:_id",
+      "handler": "Picture.destroy",
       "config": {
         "policies": []
       }

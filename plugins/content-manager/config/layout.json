@@ -8,5 +8,57 @@
         "appearance": ""
       }
     }
+  },
+  "keyword": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "category": {
+        "appearance": ""
+      },
+      "isGood": {
+        "appearance": ""
+      },
+      "isEasy": {
+        "appearance": ""
+      },
+      "owner": {
+        "appearance": ""
+      },
+      "ali_rank": {
+        "appearance": ""
+      }
+    }
+  },
+  "domains": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "owner": {
+        "appearance": ""
+      },
+      "lan": {
+        "appearance": ""
+      }
+    }
+  },
+  "category": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "picture": {
+    "attributes": {
+      "TEST": {
+        "appearance": ""
+      },
+      "source": {
+        "appearance": ""
+      }
+    }
   }
 }

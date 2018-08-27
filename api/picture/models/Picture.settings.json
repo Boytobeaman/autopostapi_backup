@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "picture",
+  "info": {
+    "name": "picture",
+    "description": "all pictures for all categories"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "category": {
+      "model": "category",
+      "via": "pictures"
+    },
+    "source_url": {
+      "type": "string"
+    }
+  }
+}

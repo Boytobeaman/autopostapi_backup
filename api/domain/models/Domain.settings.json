@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "domains",
+  "info": {
+    "name": "domain",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "keyword": {
+      "collection": "keyword",
+      "dominant": true,
+      "via": "domains"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "lan": {
+      "type": "string"
+    }
+  }
+}

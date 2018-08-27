@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "keyword",
+  "info": {
+    "name": "keyword",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "isGood": {
+      "type": "boolean"
+    },
+    "isEasy": {
+      "type": "boolean"
+    },
+    "domains": {
+      "collection": "domain",
+      "via": "keyword"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "category": {
+      "model": "category",
+      "via": "keyword"
+    },
+    "ali_rank": {
+      "type": "json"
+    }
+  }
+}

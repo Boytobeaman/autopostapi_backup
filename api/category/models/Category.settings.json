@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "category",
+    "description": "keywords' category"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "keyword": {
+      "collection": "keyword",
+      "via": "category"
+    },
+    "pictures": {
+      "collection": "picture",
+      "via": "category"
+    }
+  }
+}
