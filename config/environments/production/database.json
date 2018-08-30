@@ -5,7 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "uri": "",
+        "uri": "${process.env.DATABASE_URI || ''}",
         "host": "127.0.0.1",
         "port": "27017",
         "database": "${process.env.DATABASE_NAME || 'mynewstrapi'}",
