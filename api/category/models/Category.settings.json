@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "category",
   "info": {
     "name": "category",
     "description": "keywords' category"
@@ -10,7 +10,9 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "keyword": {
       "collection": "keyword",
@@ -18,6 +20,10 @@
     },
     "pictures": {
       "collection": "picture",
+      "via": "category"
+    },
+    "urls": {
+      "collection": "url",
       "via": "category"
     }
   }

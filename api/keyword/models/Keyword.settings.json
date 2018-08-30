@@ -10,7 +10,9 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "isGood": {
       "type": "boolean"
@@ -18,9 +20,9 @@
     "isEasy": {
       "type": "boolean"
     },
-    "domains": {
+    "published_domains": {
       "collection": "domain",
-      "via": "keyword"
+      "via": "published_keyword"
     },
     "owner": {
       "type": "string"
@@ -31,6 +33,14 @@
     },
     "ali_rank": {
       "type": "json"
+    },
+    "to_promote_url": {
+      "model": "url",
+      "via": "to_promote_keyword"
+    },
+    "linked_urls": {
+      "collection": "url",
+      "via": "linked_keywords"
     }
   }
 }

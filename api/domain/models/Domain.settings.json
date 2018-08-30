@@ -10,18 +10,24 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
-    },
-    "keyword": {
-      "collection": "keyword",
-      "dominant": true,
-      "via": "domains"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "owner": {
       "type": "string"
     },
     "lan": {
       "type": "string"
+    },
+    "urls": {
+      "collection": "url",
+      "via": "domain"
+    },
+    "published_keyword": {
+      "collection": "keyword",
+      "dominant": true,
+      "via": "published_domains"
     }
   }
 }

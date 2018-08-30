@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "url",
+  "info": {
+    "name": "url",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "domain": {
+      "model": "domain",
+      "via": "urls"
+    },
+    "category": {
+      "model": "category",
+      "via": "urls"
+    },
+    "to_promote_keyword": {
+      "collection": "keyword",
+      "via": "to_promote_url"
+    },
+    "linked_keywords": {
+      "collection": "keyword",
+      "dominant": true,
+      "via": "linked_urls"
+    }
+  }
+}

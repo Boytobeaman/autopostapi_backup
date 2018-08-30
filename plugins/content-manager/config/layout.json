@@ -60,5 +60,12 @@
         "appearance": ""
       }
     }
+  },
+  "url": {
+    "attributes": {
+      "url": {
+        "appearance": ""
+      }
+    }
   }
 }
