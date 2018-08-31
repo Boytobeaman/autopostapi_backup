@@ -35,7 +35,7 @@
       "type": "json"
     },
     "to_promote_url": {
-      "model": "url",
+      "collection": "url",
       "via": "to_promote_keyword"
     },
     "linked_urls": {
