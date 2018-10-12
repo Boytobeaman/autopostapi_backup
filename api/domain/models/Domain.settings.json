@@ -28,6 +28,23 @@
       "collection": "keyword",
       "dominant": true,
       "via": "published_domains"
+    },
+    "login_url": {
+      "type": "string"
+    },
+    "login_username": {
+      "type": "string"
+    },
+    "login_password": {
+      "type": "password"
+    },
+    "postNewsCats": {
+      "collection": "postnewscat",
+      "via": "domain"
+    },
+    "auto_post": {
+      "default": true,
+      "type": "boolean"
     }
   }
 }

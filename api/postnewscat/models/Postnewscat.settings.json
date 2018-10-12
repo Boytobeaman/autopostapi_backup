@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "postnewscat",
+  "info": {
+    "name": "postnewscat",
+    "description": "an array of categories that the posts belong to"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "catName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "category": {
+      "model": "category",
+      "via": "postNewsCats"
+    },
+    "domain": {
+      "collection": "domain",
+      "dominant": true,
+      "via": "postNewsCats"
+    }
+  }
+}

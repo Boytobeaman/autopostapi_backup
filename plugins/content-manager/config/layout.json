@@ -28,6 +28,12 @@
       },
       "ali_rank": {
         "appearance": ""
+      },
+      "lan": {
+        "appearance": ""
+      },
+      "isHard": {
+        "appearance": ""
       }
     }
   },
@@ -48,6 +54,9 @@
     "attributes": {
       "name": {
         "appearance": ""
+      },
+      "lan": {
+        "appearance": ""
       }
     }
   },
@@ -64,6 +73,42 @@
   "url": {
     "attributes": {
       "url": {
+        "appearance": ""
+      }
+    }
+  },
+  "description": {
+    "attributes": {
+      "description": {
+        "appearance": ""
+      },
+      "category": {
+        "appearance": ""
+      }
+    }
+  },
+  "domain": {
+    "attributes": {
+      "login_url": {
+        "appearance": ""
+      },
+      "login_username": {
+        "appearance": ""
+      },
+      "login_password": {
+        "appearance": ""
+      },
+      "post_category": {
+        "appearance": ""
+      },
+      "auto_post": {
+        "appearance": ""
+      }
+    }
+  },
+  "postNewsCat": {
+    "attributes": {
+      "catName": {
         "appearance": ""
       }
     }

@@ -25,6 +25,13 @@
     "urls": {
       "collection": "url",
       "via": "category"
+    },
+    "postNewsCats": {
+      "collection": "postnewscat",
+      "via": "category"
+    },
+    "lan": {
+      "type": "string"
     }
   }
 }

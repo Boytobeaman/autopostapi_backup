@@ -41,6 +41,13 @@
     "linked_urls": {
       "collection": "url",
       "via": "linked_keywords"
+    },
+    "lan": {
+      "default": "english",
+      "type": "string"
+    },
+    "isHard": {
+      "type": "boolean"
     }
   }
 }

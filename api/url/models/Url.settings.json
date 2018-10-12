@@ -24,13 +24,13 @@
     },
     "to_promote_keyword": {
       "collection": "keyword",
-      "via": "to_promote_url",
-      "dominant": true
+      "dominant": true,
+      "via": "to_promote_url"
     },
     "linked_keywords": {
       "collection": "keyword",
-      "via": "linked_urls",
-      "dominant": true
+      "dominant": true,
+      "via": "linked_urls"
     }
   }
 }

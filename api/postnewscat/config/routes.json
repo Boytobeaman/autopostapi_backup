@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/postnewscat",
+      "handler": "Postnewscat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postnewscat/count",
+      "handler": "Postnewscat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postnewscat/:_id",
+      "handler": "Postnewscat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/postnewscat",
+      "handler": "Postnewscat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/postnewscat/:_id",
+      "handler": "Postnewscat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/postnewscat/:_id",
+      "handler": "Postnewscat.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

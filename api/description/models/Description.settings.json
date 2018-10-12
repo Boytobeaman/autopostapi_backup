@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "description",
+  "info": {
+    "name": "description",
+    "description": "Descriptions that will be used to compose a post"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
